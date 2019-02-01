@@ -1,0 +1,666 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8" lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en">
+<!--<![endif]-->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta property="og:description" content="Apply for your first provisional driving licence from DVLA online to drive a car, moped or motorcycle">
+<meta property="og:title" content="Apply for your first provisional driving licence">
+<meta property="og:url" content="https://www.gov.uk/apply-first-provisional-driving-licence">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="GOV.UK">
+<meta name="govuk:ab-test" content="RelatedLinksAATest:B" data-analytics-dimension="65" data-allowed-variants="A,B">
+<meta name="govuk:section" content="driving and transport">
+<meta name="govuk:stepnavs" content="e01e924b-9c7c-4c71-8241-66a575c2f61f">
+<meta name="govuk:taxon-slugs" content="driving-licence-applications-and-renewals">
+<meta name="govuk:taxon-slug" content="driving-licence-applications-and-renewals">
+<meta name="govuk:taxon-ids" content="377d3d35-4bc8-45a5-99be-d0ac4f25437f">
+<meta name="govuk:taxon-id" content="377d3d35-4bc8-45a5-99be-d0ac4f25437f">
+<meta name="govuk:themes" content="transport">
+<meta name="govuk:analytics:organisations" content="&lt;EA74&gt;">
+<meta name="govuk:content-id" content="f725a60e-a666-4269-82b0-946ecfb84b7c">
+<meta name="govuk:schema-name" content="transaction">
+<meta name="govuk:publishing-application" content="publisher">
+<meta name="govuk:format" content="transaction">
+<meta name="description" content="Apply for your first provisional driving licence from DVLA online to drive a car, moped or motorcycle">
+<meta name="twitter:card" content="summary">
+    <meta charset="utf-8">
+    <title>Apply for your first provisional driving licence - GOV.UK</title>
+
+    <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-c0b8ba8b1652aacad298d74f24752260187f538b50c40c2484f7f333cbc3cf2b.css" crossorigin="anonymous" integrity="sha256-wLi6ixZSqsrSmNdPJHUiYBh/U4tQxAwkhPfzM8vDzys=">
+<!--<![endif]-->
+    <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie6-2c1bb089ee71d4d70a08ba94e4b363a99542c8feddf3aa979bc4f8962aed5e02.css" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie7-062e553ef49a9f884a3a1f885c8a18e829b6557046b075e1384f6092a60151d1.css" /><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/govuk-template-ie8-11027733d1abeac34c7bf14e37fea30366ad3a87cfd7f7a084de3a3b4b838412.css" /><![endif]-->
+    <link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/static/govuk-template-print-1076519521c2fffbbf75ab3b0d3b32ee2d96ac7e9778f1cdfac1771eefd1a1c0.css" crossorigin="anonymous" integrity="sha256-EHZRlSHC//u/das7DTsy7i2WrH6XePHN+sF3Hu/RocA=">
+
+    <link rel="stylesheet" media="all" href="https://assets.publishing.service.gov.uk/static/fonts-e9ec5a5f82e5c2a17927ce356e5a054cb28025ec1547ec5d00f5c98d2ec5e481.css" crossorigin="anonymous" integrity="sha256-6exaX4LlwqF5J841bloFTLKAJewVR+xdAPXJjS7F5IE=">
+    <!--[if lt IE 9]><script src="https://assets.publishing.service.gov.uk/static/ie-a4524544a53d57a7e259b4bb966b9c32557c98c920b77e52d09304642b68401a.js" crossorigin="anonymous" integrity="sha256-pFJFRKU9V6fiWbS7lmucMlV8mMkgt35S0JMEZCtoQBo="></script><![endif]-->
+
+    <link rel="shortcut icon" href="https://assets.publishing.service.gov.uk/static/favicon-8d811b8c3badbc0b0e2f6e25d3660a96cc0cca7993e6f32e98785f205fc40907.ico" type="image/x-icon">
+    <link rel="mask-icon" href="https://assets.publishing.service.gov.uk/static/gov.uk_logotype_crown-de738c3fcce8ce2a91b67e89787090dc24a5cda0275ab6b75f6226c5b9619d3d.svg" color="#0b0c0c">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-180x180-ea1cbb1cbbeddfff275dfa6e8e46b84cd530892df79dc4882a8f99b802b49a90.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-167x167-181e404a50c572923285fb83f0fbd78da6b4e38e3ce52f8e6b8e29da8586450a.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-152x152-02457fcdcee8d309276305af2233d41bfb8fd055e855727d355e61bce7ffa9bb.png">
+    <link rel="apple-touch-icon" href="https://assets.publishing.service.gov.uk/static/apple-touch-icon-a318f305290c523aed80082456175b46c95350c0eeac93f42e78a71c7a55544e.png">
+
+    <meta name="theme-color" content="#0b0c0c">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/static-a0d0777267928e03936741f9c02091a76d140388d3b2811db3c4ea047bfa2860.css" crossorigin="anonymous" integrity="sha256-oNB3cmeSjgOTZ0H5wCCRp20UA4jTsoEds8TqBHv6KGA=">
+<!--<![endif]-->
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/static-ie6-5fc2bdb52fdebad85190a6cbda4a1702a826ba06b2d1f21ab416daa13e43d091.css" /><script>var ieVersion = 6;</script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/static-ie7-facde4c87222763964f5e2ce800ad009df924a5e1d32dcb033ef608832d3874d.css" /><script>var ieVersion = 7;</script><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/static/static-ie8-44634e3717de40b332161ae36719f9c1e465fa788b0ddc0c9624a25c6d2d6940.css" /><script>var ieVersion = 8;</script><![endif]-->
+
+<link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/static/static-print-17255536627492caaf8fd08dbbf9cd1169bf0e32d73c202a7dc98a7a5fdc4daa.css" crossorigin="anonymous" integrity="sha256-FyVVNmJ0ksqvj9CNu/nNEWm/DjLXPCAqfcmKel/cTao=">
+
+
+
+    <meta property="og:image" content="https://assets.publishing.service.gov.uk/static/opengraph-image-a1f7d89ffd0782738b1aeb0da37842d8bd0addbd724b8e58c3edbc7287cc11de.png">
+  <link title="Search" rel="search" type="application/opensearchdescription+xml" href="/search/opensearch.xml">
+<!--[if gt IE 8]><!--><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/frontend/application-e6ac7b21d31559e1b5ee065ef33e0b0096da7d5d8a99ce7151a01b4be5e9bf77.css" crossorigin="anonymous" integrity="sha256-5qx7IdMVWeG17gZe8z4LAJbafV2Kmc5xUaAbS+Xpv3c=">
+<!--<![endif]--><link rel="stylesheet" media="print" href="https://assets.publishing.service.gov.uk/frontend/print-12d845e29cec549d1fa00ff603b63f839ade12d95e40eae358dbf99520e7f5c5.css" crossorigin="anonymous" integrity="sha256-EthF4pzsVJ0foA/2A7Y/g5reEtleQOrjWNv5lSDn9cU=">
+<link rel="canonical" href="https://www.gov.uk/apply-first-provisional-driving-licence">
+<!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/frontend/application-ie6-4c3df022fbe238c4e28788222e03785fdf7491b0f81d03d0deb8f922be0a6820.css" /><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/frontend/application-ie7-ef973b7197d93772c0a4d54e8963fc03393d0097d4598da7c2410bee1b26fc46.css" /><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/frontend/application-ie8-73d39ea89a01cc10595bbf08f63c395f6c854fb5dd329559b6ca9c9241fce095.css" /><![endif]--><meta name="govuk:rendering-application" content="frontend">
+</head>
+
+  <body class="mainstream">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    
+
+
+  
+
+    
+
+
+      
+
+  <div id="wrapper" class="transaction service">
+        
+
+
+
+        <div class="grid-row">
+          
+<main id="content" role="main" class="">
+  <header class="page-header">
+    <div class="gem-c-title
+  
+  gem-c-title--margin-bottom-5">
+  <h1 class="gem-c-title__text ">
+    Leave your pension pot untouched
+  </h1>
+</div>
+
+  </header>
+  <div class="article-container group">
+    
+    <div class="content-block">
+      <div class="inner">
+        
+  <section class="intro">
+
+
+
+<!--content here-->
+
+
+<h2 id="overview">Overview</h2>
+
+<p>You don’t have to start taking money from your pension pot when you reach your ‘selected retirement age’ (the age you agreed with your provider to retire). You could leave the money invested, eg while you’re working.</p>
+
+<ul>
+  <li>The money in your pot could grow.</li>
+  <li>You could have more money to last a shorter length of time.</li>
+</ul>
+
+<h2 id="tax">Tax</h2>
+
+<p>You don’t pay tax while the money stays in your pot.</p>
+
+<p>Money you leave in your pot can be <a href="#">passed on</a> tax free if you die before the age of 75.</p>
+
+<div role="note" aria-label="Information" class="application-notice info-notice">
+<p>Find out <a href="#">if you can book</a> a free Pension Wise appointment.</p>
+</div>
+
+<h2 id="fees-and-investment-risk">Fees and investment risk</h2>
+
+<p>You may be charged extra fees if you don’t start taking your money when you reach your selected retirement age. Check with your provider.</p>
+
+<p>As with every investment the value of your pot could go up or down.</p>
+
+<h2 id="continuing-to-pay-in">Continuing to pay in</h2>
+
+<p>You (and your employer) can continue to pay into your pot but there may be restrictions.</p>
+
+<p>You usually pay tax if savings in your pension pots go above the <a href="#">annual allowance</a>. This is currently £40,000 a year.</p>
+
+<div class="t-calculator calculator calculator--in-article calculator--leave-pot-untouched js-calculator hide-from-print">
+<h2 id="calculator">Estimate how much your pot could grow</h2>
+
+
+
+<form action="/en/leave-pot-untouched/estimate#form" method="get" class="js-calculator-form" data-loading-message="Please wait">
+  
+<div class="form-group ">
+  <label class="form-label" for="pot" id="pot-label">
+    How much is in your pot?
+    
+  </label>
+  <span class="error-message"></span>
+  <span id="pot-symbol">£</span>
+  <input type="text" name="pot" id="pot" aria-labelledby="pot-label pot-symbol" class="form-control calculator__field t-calculator-pot " />
+</div>
+
+
+  
+<div class="form-group ">
+  <label class="form-label" for="contribution" id="contribution-label">
+    How much can you pay in each month?
+    
+  </label>
+  <span class="error-message"></span>
+  <span id="contribution-symbol">£</span>
+  <input type="text" name="contribution" id="contribution" aria-labelledby="contribution-label contribution-symbol" class="form-control calculator__field t-calculator-contribution " />
+</div>
+
+
+  <div class="form-group">
+  <input type="submit" class="button calculator__submit t-calculator-submit js-calculate-submit" value="Calculate" />
+</div>
+
+<br>
+
+</form>
+
+</div>
+
+<div role="note" aria-label="Information" class="application-notice info-notice">
+<p>Book a <a href="#">free Pension Wise appointment</a> to find out more about what you can do with your pot.</p>
+</div>
+
+<h2 id="scams">Scams</h2>
+
+<p>If someone contacts you unexpectedly about getting money out of your pot before you’re 55, it’s nearly always a pension scam.</p>
+
+<div class="next-steps next-steps--leave-pot-untouched">
+
+  <h2 id="next-steps">Next steps</h2>
+
+  <p>Ask your pension provider the following questions:</p>
+
+  <ul>
+    <li>Do I have to take the money by a certain date?</li>
+    <li>What fees will you charge if I leave my money longer?</li>
+    <li>How much is the pot likely to grow each year?</li>
+    <li>How is the money invested and can I change this if I want?</li>
+    <li>How much can I still pay in?</li>
+    <li>Does my pot have any special features that could mean I get a better deal, eg a guaranteed annuity rate?</li>
+    <li>Do you have up-to-date details of the person I want to leave my pot to (my ‘beneficiary’)?</li>
+  </ul>
+
+</div>
+
+
+
+
+
+
+    
+  </section>
+
+  
+
+      </div>
+    </div>
+    <div class="meta-data group">
+    
+</div>
+
+
+  </div>
+</main>
+
+<div class="related-container">
+  
+<div class="gem-c-contextual-sidebar">
+      <div class="gem-c-step-nav-related gem-c-step-nav-related--singular" data-module="track-click">
+    <h2 class="gem-c-step-nav-related__heading">
+      <span class="gem-c-step-nav-related__pretitle">Part of</span>
+          <a href="step-page" class="gem-c-step-nav-related__link" data-track-category="stepNavPartOfClicked" data-track-action="Part of" data-track-label="/learn-to-drive-a-car" data-track-dimension="Learn to drive a car: step by step" data-track-dimension-index="29" data-track-options='{"dimension96" : "e01e924b-9c7c-4c71-8241-66a575c2f61f" }'>
+            Learn your pension options
+          </a>
+        </h2>
+  </div>
+
+
+      <div data-module="gemstepnav" class="gem-c-step-nav js-hidden " data-id="e01e924b-9c7c-4c71-8241-66a575c2f61f" data-show-text="show" data-hide-text="hide" data-show-all-text="Show all" data-hide-all-text="Hide all">
+    <ol class="gem-c-step-nav__steps">
+        <li class="gem-c-step-nav__step js-step
+          " id="check-youre-allowed-to-drive" data-track-count="stepNavSection">
+          <div class="gem-c-step-nav__header js-toggle-panel" data-position="1">
+            <h3 class="gem-c-step-nav__title">
+              <span class="gem-c-step-nav__circle gem-c-step-nav__circle--number">
+                <span class="gem-c-step-nav__circle-inner">
+                  <span class="gem-c-step-nav__circle-background">
+                      <span class="gem-c-step-nav__circle-step-label visuallyhidden">Step</span> 1<span class="gem-c-step-nav__circle-step-colon visuallyhidden" aria-hidden="true">:</span>
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Know your situation
+              </span>
+</h3>          </div>
+
+          <div class="gem-c-step-nav__panel js-panel" id="step-panel-check-youre-allowed-to-drive-1">
+              <p class="gem-c-step-nav__paragraph">First think about what you'd like out of retirement</p>
+
+              <ol class="gem-c-step-nav__list " data-length="3">
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="1.1" class="gem-c-step-nav__link js-link" href="#">Introduction to pensions</a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="1.2" class="gem-c-step-nav__link js-link" href="#">Consider your outgoings</a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="1.3" class="gem-c-step-nav__link js-link" href="#">Tools to help you plan your retirement</a></li>
+</ol>
+
+          </div>
+
+
+
+          <!-- option 2 -->
+
+        </li>
+        <li class="gem-c-step-nav__step js-step
+          gem-c-step-nav__step--active" aria-current="step" data-show id="get-a-provisional-licence" data-track-count="stepNavSection">
+          <div class="gem-c-step-nav__header js-toggle-panel" data-position="2">
+            <h3 class="gem-c-step-nav__title">
+              <span class="gem-c-step-nav__circle gem-c-step-nav__circle--number">
+                <span class="gem-c-step-nav__circle-inner">
+                  <span class="gem-c-step-nav__circle-background">
+                      <span class="gem-c-step-nav__circle-step-label visuallyhidden">Step</span> 2<span class="gem-c-step-nav__circle-step-colon visuallyhidden" aria-hidden="true">:</span>
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Option 1: Leave your pension pot untouched
+              </span>
+</h3>          </div>
+
+          <div class="gem-c-step-nav__panel js-panel" id="step-panel-get-a-provisional-licence-2">
+              <ol class="gem-c-step-nav__list " data-length="1"><li class="gem-c-step-nav__list-item js-list-item gem-c-step-nav__list-item--active"><a data-position="2.1" class="gem-c-step-nav__link js-link" href="#content"><span class="gem-c-step-nav__link-active-context visuallyhidden">You are currently viewing: </span>Introduction to option 1</a></li></ol>
+
+          </div>
+
+
+
+          <!-- Option 2 -->
+
+        </li>
+        <li class="gem-c-step-nav__step js-step
+          " id="driving-lessons-and-practice" data-track-count="stepNavSection">
+          <div class="gem-c-step-nav__header js-toggle-panel" data-position="3">
+            <h3 class="gem-c-step-nav__title">
+              <span class="gem-c-step-nav__circle gem-c-step-nav__circle--number">
+                <span class="gem-c-step-nav__circle-inner">
+                  <span class="gem-c-step-nav__circle-background">
+                      <span class="gem-c-step-nav__circle-step-label visuallyhidden">Step</span> 3<span class="gem-c-step-nav__circle-step-colon visuallyhidden" aria-hidden="true">:</span>
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Option 2: Get a guaranteed income (annuity)
+              </span>
+</h3>          </div>
+
+          <div class="gem-c-step-nav__panel js-panel" id="step-panel-driving-lessons-and-practice-3">
+              <p class="gem-c-step-nav__paragraph">Find out more information on this option</p>
+
+              <ol class="gem-c-step-nav__list " data-length="4">
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.1" class="gem-c-step-nav__link js-link" href="#">Watch a video introduction </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.2" class="gem-c-step-nav__link js-link" href="#">Learn about the tax implications </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.3" class="gem-c-step-nav__link js-link" href="#">Things to consider about this option</a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.4" class="gem-c-step-nav__link js-link" href="#">Calculator </a></li>
+</ol>
+
+          </div>
+
+        </li>
+
+
+
+        <!-- option 3 -->
+
+                </li>
+        <li class="gem-c-step-nav__step js-step
+          " id="driving-lessons-and-practice" data-track-count="stepNavSection">
+          <div class="gem-c-step-nav__header js-toggle-panel" data-position="3">
+            <h3 class="gem-c-step-nav__title">
+              <span class="gem-c-step-nav__circle gem-c-step-nav__circle--number">
+                <span class="gem-c-step-nav__circle-inner">
+                  <span class="gem-c-step-nav__circle-background">
+                      <span class="gem-c-step-nav__circle-step-label visuallyhidden">Step</span> 4<span class="gem-c-step-nav__circle-step-colon visuallyhidden" aria-hidden="true">:</span>
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Option 3: Get an adjustable income
+              </span>
+</h3>          </div>
+
+          <div class="gem-c-step-nav__panel js-panel" id="step-panel-driving-lessons-and-practice-3">
+              <p class="gem-c-step-nav__paragraph">Find out more information on this option</p>
+
+              <ol class="gem-c-step-nav__list " data-length="4">
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.1" class="gem-c-step-nav__link js-link" href="/guidance/the-highway-code?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Watch a video introduction </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.2" class="gem-c-step-nav__link js-link" href="/driving-lessons-learning-to-drive?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Learn about the tax implications </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.3" class="gem-c-step-nav__link js-link" href="/find-driving-schools-and-lessons?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Things to consider about this option</a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.4" class="gem-c-step-nav__link js-link" href="/government/publications/car-show-me-tell-me-vehicle-safety-questions?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Calculator </a></li>
+</ol>
+
+          </div>
+
+        </li>
+
+
+        <!-- option 4 -->
+
+
+                        </li>
+        <li class="gem-c-step-nav__step js-step
+          " id="driving-lessons-and-practice" data-track-count="stepNavSection">
+          <div class="gem-c-step-nav__header js-toggle-panel" data-position="3">
+            <h3 class="gem-c-step-nav__title">
+              <span class="gem-c-step-nav__circle gem-c-step-nav__circle--number">
+                <span class="gem-c-step-nav__circle-inner">
+                  <span class="gem-c-step-nav__circle-background">
+                      <span class="gem-c-step-nav__circle-step-label visuallyhidden">Step</span> 5<span class="gem-c-step-nav__circle-step-colon visuallyhidden" aria-hidden="true">:</span>
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Option 4: Take cash in chunks
+              </span>
+</h3>          </div>
+
+          <div class="gem-c-step-nav__panel js-panel" id="step-panel-driving-lessons-and-practice-3">
+              <p class="gem-c-step-nav__paragraph">Find out more information on this option</p>
+
+              <ol class="gem-c-step-nav__list " data-length="4">
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.1" class="gem-c-step-nav__link js-link" href="/guidance/the-highway-code?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Watch a video introduction </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.2" class="gem-c-step-nav__link js-link" href="/driving-lessons-learning-to-drive?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Learn about the tax implications </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.3" class="gem-c-step-nav__link js-link" href="/find-driving-schools-and-lessons?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Things to consider about this option</a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.4" class="gem-c-step-nav__link js-link" href="/government/publications/car-show-me-tell-me-vehicle-safety-questions?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Calculator </a></li>
+</ol>
+
+          </div>
+
+        </li>
+
+
+
+
+        <!-- option 5-->
+
+
+
+
+                </li>
+        <li class="gem-c-step-nav__step js-step
+          " id="driving-lessons-and-practice" data-track-count="stepNavSection">
+          <div class="gem-c-step-nav__header js-toggle-panel" data-position="3">
+            <h3 class="gem-c-step-nav__title">
+              <span class="gem-c-step-nav__circle gem-c-step-nav__circle--number">
+                <span class="gem-c-step-nav__circle-inner">
+                  <span class="gem-c-step-nav__circle-background">
+                      <span class="gem-c-step-nav__circle-step-label visuallyhidden">Step</span> 6<span class="gem-c-step-nav__circle-step-colon visuallyhidden" aria-hidden="true">:</span>
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Option 5: Take your whole pension pot in one go
+              </span>
+</h3>          </div>
+
+          <div class="gem-c-step-nav__panel js-panel" id="step-panel-driving-lessons-and-practice-3">
+              <p class="gem-c-step-nav__paragraph">Find out more information on this option</p>
+
+              <ol class="gem-c-step-nav__list " data-length="4">
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.1" class="gem-c-step-nav__link js-link" href="/guidance/the-highway-code?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Watch a video introduction </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.2" class="gem-c-step-nav__link js-link" href="/driving-lessons-learning-to-drive?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Learn about the tax implications </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.3" class="gem-c-step-nav__link js-link" href="/find-driving-schools-and-lessons?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Things to consider about this option</a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.4" class="gem-c-step-nav__link js-link" href="/government/publications/car-show-me-tell-me-vehicle-safety-questions?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Calculator </a></li>
+</ol>
+
+          </div>
+
+        </li>
+
+
+
+
+        <!-- option 6 -->
+
+
+
+                 </li>
+        <li class="gem-c-step-nav__step js-step
+          " id="driving-lessons-and-practice" data-track-count="stepNavSection">
+          <div class="gem-c-step-nav__header js-toggle-panel" data-position="3">
+            <h3 class="gem-c-step-nav__title">
+              <span class="gem-c-step-nav__circle gem-c-step-nav__circle--number">
+                <span class="gem-c-step-nav__circle-inner">
+                  <span class="gem-c-step-nav__circle-background">
+                      <span class="gem-c-step-nav__circle-step-label visuallyhidden">Step</span> 7<span class="gem-c-step-nav__circle-step-colon visuallyhidden" aria-hidden="true">:</span>
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Option 6: Mix your pension options
+              </span>
+</h3>          </div>
+
+          <div class="gem-c-step-nav__panel js-panel" id="step-panel-driving-lessons-and-practice-3">
+              <p class="gem-c-step-nav__paragraph">Find out more information on this option</p>
+
+              <ol class="gem-c-step-nav__list " data-length="4">
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.1" class="gem-c-step-nav__link js-link" href="/guidance/the-highway-code?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Watch a video introduction </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.2" class="gem-c-step-nav__link js-link" href="/driving-lessons-learning-to-drive?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Learn about the tax implications </a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.3" class="gem-c-step-nav__link js-link" href="/find-driving-schools-and-lessons?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Things to consider about this option</a></li>
+<li class="gem-c-step-nav__list-item js-list-item "><a data-position="3.4" class="gem-c-step-nav__link js-link" href="/government/publications/car-show-me-tell-me-vehicle-safety-questions?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">Calculator </a></li>
+</ol>
+
+          </div>
+
+        </li>
+
+
+<!-- Option 6-->
+
+        <li class="gem-c-step-nav__step js-step
+          " id="when-you-pass" data-track-count="stepNavSection">
+          <div class="gem-c-step-nav__header js-toggle-panel" data-position="7">
+            <h3 class="gem-c-step-nav__title">
+              <span class="gem-c-step-nav__circle gem-c-step-nav__circle--number">
+                <span class="gem-c-step-nav__circle-inner">
+                  <span class="gem-c-step-nav__circle-background">
+                      <span class="gem-c-step-nav__circle-step-label visuallyhidden">Step</span> 6<span class="gem-c-step-nav__circle-step-colon visuallyhidden" aria-hidden="true">:</span>
+                  </span>
+                </span>
+              </span>
+
+              <span class="js-step-title">
+                Get your summary
+              </span>
+</h3>          </div>
+
+          <div class="gem-c-step-nav__panel js-panel" id="step-panel-when-you-pass-7">
+              <p class="gem-c-step-nav__paragraph"><a href="#">Download and print your summary</a></p>
+
+              <p class="gem-c-step-nav__paragraph"><a href="#">Find out what you can do next.</a></p>
+
+          </div>
+
+        </li>
+
+
+
+        <!-- Last option in list-->
+
+
+
+
+
+    </ol>
+  </div>
+
+
+</div>
+
+</div>
+
+
+        </div>
+        <div class="grid-row">
+            <div class="column-desktop-third">
+    
+
+  </div>
+
+        </div>
+
+      
+<div class="gem-c-feedback gem-c-feedback--top-margin" data-module="feedback">
+  
+
+
+  <form action="/contact/govuk/problem_reports" id="something-is-wrong" class="gem-c-feedback__form js-feedback-form js-hidden" data-track-category="Onsite Feedback" data-track-action="GOV.UK Send Form" method="post">
+  <a href="#" class="gem-c-feedback__close gem-c-feedback__js-show js-close-form" data-track-category="Onsite Feedback" data-track-action="GOV.UK Close Form" aria-controls="something-is-wrong" aria-expanded="true" role="button">Close</a>
+
+  <div class="gem-c-feedback__grid-row">
+    <div class="gem-c-feedback__column-two-thirds">
+      <div class="gem-c-feedback__error-summary gem-c-feedback__js-show js-hidden js-errors" tabindex="-1"></div>
+
+      <input type="hidden" name="url" value="https://www.gov.uk/apply-first-provisional-driving-licence?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">
+
+      <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+      <p id="feedback_explanation" class="gem-c-feedback__form-paragraph">Don’t include personal or financial information like your National Insurance number or credit card details.</p>
+
+      
+<div class="govuk-form-group">
+    
+<label for="input-77b0f2cf" class="gem-c-label govuk-label ">
+  What were you doing?
+</label>
+
+
+
+
+  <input name="what_doing" class="gem-c-input govuk-input" id="input-77b0f2cf" type="text" aria-describedby="feedback_explanation">
+</div>
+
+      
+<div class="govuk-form-group">
+    
+<label for="input-31ba9a2b" class="gem-c-label govuk-label ">
+  What went wrong?
+</label>
+
+
+
+
+  <input name="what_wrong" class="gem-c-input govuk-input" id="input-31ba9a2b" type="text">
+</div>
+
+      
+  <button class="gem-c-button govuk-button" type="submit">Send</button>
+
+
+    </div>
+  </div>
+</form>
+
+  <form action="/contact/govuk/email-survey-signup" id="page-is-not-useful" class="gem-c-feedback__form gem-c-feedback__form--email gem-c-feedback__js-show js-feedback-form js-hidden" data-track-category="yesNoFeedbackForm" data-track-action="Send Form" method="post">
+  <a href="#" class="gem-c-feedback__close js-close-form" data-track-category="yesNoFeedbackForm" data-track-action="ffFormClose" aria-controls="page-is-not-useful" aria-expanded="true" role="button">Close</a>
+
+  <div class="gem-c-feedback__grid-row">
+    <div class="gem-c-feedback__column-two-thirds">
+      <div class="gem-c-feedback__error-summary js-hidden js-errors" tabindex="-1"></div>
+
+      <input name="email_survey_signup[survey_id]" type="hidden" value="footer_satisfaction_survey">
+      <input name="email_survey_signup[survey_source]" type="hidden" value="https://www.gov.uk/apply-first-provisional-driving-licence?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f">
+      <input name="email_survey_signup[ga_client_id]" type="hidden" value="1627485790.1515403243">
+
+      <h3 class="gem-c-feedback__form-heading">Help us improve GOV.UK</h3>
+      <p id="survey_explanation" class="gem-c-feedback__form-paragraph">To help us improve GOV.UK, we’d like to know more about your visit today. We’ll send you a link to a feedback form. It will take only 2 minutes to fill in. Don’t worry we won’t send you spam or share your email address with anyone.</p>
+
+      
+<div class="govuk-form-group">
+    
+<label for="input-4632d069" class="gem-c-label govuk-label ">
+  Email address
+</label>
+
+
+
+
+  <input name="email_survey_signup[email_address]" class="gem-c-input govuk-input" id="input-4632d069" type="email" aria-describedby="survey_explanation">
+</div>
+
+      
+  <button class="gem-c-button govuk-button" type="submit">Send me the survey</button>
+
+
+      <a href="https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=/apply-first-provisional-driving-licence?step-by-step-nav=e01e924b-9c7c-4c71-8241-66a575c2f61f&amp;gcl=1627485790.1515403243" class="gem-c-feedback__email-link govuk-link" id="take-survey" target="_blank" rel="noopener noreferrer">Don’t have an email address?</a>
+    </div>
+  </div>
+</form>
+
+</div>
+
+    </div>
+
+
+    
+
+    <div id="global-app-error" class="app-error hidden"></div>
+
+    <script src="https://assets.publishing.service.gov.uk/static/govuk-template-ae4c5d21c0a7cb5bc8926a9f491de4e410244403f66c72997210c281efb92d4f.js" crossorigin="anonymous" integrity="sha256-rkxdIcCny1vIkmqfSR3k5BAkRAP2bHKZchDCge+5LU8="></script>
+
+      <script src="https://assets.publishing.service.gov.uk/static/libs/jquery/jquery-1.12.4-c731c20e2995c576b0509d3bd776f7ab64a66b95363a3b5fae9864299ee594ed.js" crossorigin="anonymous" integrity="sha256-xzHCDimVxXawUJ0713b3q2Sma5U2OjtfrphkKZ7llO0="></script>
+<script src="https://assets.publishing.service.gov.uk/static/application-4ee8664618fd3f85e90702522469f350d8c3eec1ef5560f36bd09f5eca00a53c.js" crossorigin="anonymous" integrity="sha256-TuhmRhj9P4XpBwJSJGnzUNjD7sHvVWDza9CfXsoApTw="></script>
+<script src="https://assets.publishing.service.gov.uk/static/surveys-d5aa1d0ed03e17cbcccf26926053866b703d608bd00357e4806ca7e65b04da91.js" crossorigin="anonymous" integrity="sha256-1aodDtA+F8vMzyaSYFOGa3A9YIvQA1fkgGyn5lsE2pE="></script>
+
+
+
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+  <script src="https://assets.publishing.service.gov.uk/frontend/frontend-9fdb4dc7338ea2bb040f2a19b71f369b15980ed24de97221527321f714e63340.js" crossorigin="anonymous" integrity="sha256-n9tNxzOOorsEDyoZtx82mxWYDtJN6XIhUnMh9xTmM0A="></script><script type="application/ld+json">
+  {"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.gov.uk/apply-first-provisional-driving-licence"},"headline":"Apply for your first provisional driving licence","datePublished":"2011-09-12T12:27:26.000+00:00","dateModified":"2014-12-04T00:01:05.000+00:00","description":"Apply for your first provisional driving licence from DVLA online to drive a car, moped or motorcycle","publisher":{"@type":"Organization","name":"GOV.UK","url":"https://www.gov.uk","logo":{"@type":"ImageObject","url":"https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/govuk-logo-e5962881254c9adb48f94d2f627d3bb67f258a6cbccc969e80abb7bbe4622976.png"}},"image":["https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-5ceffac04f7f6d4f421bd1d36dbb723ef48c15426d7f77f90be80a83af3c747e.png","https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-fcfe16abb1a015848e50d2ea797666a9eaf5158dca38ddfb1e52dc8c0543ab74.png","https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-fcf616879a7b37970df4d2117de962e08f7d057674ef1af6063dcdd529424eee.png"],"author":{"@type":"Organization","name":"Government Digital Service","url":"https://www.gov.uk/government/organisations/government-digital-service"},"isPartOf":[{"@context":"http://schema.org","@type":"HowTo","sameAs":"https://www.gov.uk/learn-to-drive-a-car","image":["https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/govuk-schema-placeholder-1x1-5ceffac04f7f6d4f421bd1d36dbb723ef48c15426d7f77f90be80a83af3c747e.png","https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/govuk-schema-placeholder-4x3-fcfe16abb1a015848e50d2ea797666a9eaf5158dca38ddfb1e52dc8c0543ab74.png","https://assets.publishing.service.gov.uk/frontend/govuk_publishing_components/govuk-schema-placeholder-16x9-fcf616879a7b37970df4d2117de962e08f7d057674ef1af6063dcdd529424eee.png"]}],"about":[{"@context":"http://schema.org","@type":"Thing","sameAs":"https://www.gov.uk/transport/driving-licence-applications-and-renewals"}]}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+{% endblock %}
