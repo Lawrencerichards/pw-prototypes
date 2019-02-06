@@ -1,0 +1,51 @@
+
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Pensionwise pensions options course
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-width-container">
+  <a href="step-by-step-sidebar" class="govuk-back-link">Back to options</a>
+
+  <main class="govuk-main-wrapper">
+
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        <h1 class="govuk-heading-xl">End session and come back later</h1>
+        <p class="govuk-body">If you want to come back and find where you were you
+         need to provide your email address so we can save your session.
+         Once you've done this we can send you a link that will take you back to your session</p>
+
+
+         <div class="govuk-form-group">
+           <label class="govuk-label" for="email">
+             Email address
+           </label>
+           <span id="email-hint" class="govuk-hint">
+             It's important you provide a valid email address to be able to return to your appointment later
+           </span>
+           <input class="govuk-input govuk-!-width-two-thirds" id="email" name="email" type="email" aria-describedby="email-hint">
+         </div>
+
+
+
+         <a href="confirm" <button type="submit" class="govuk-button">
+          End session
+         </button></a>
+
+
+
+
+      </div>
+    </div>
+
+  </main>
+</div>
+
+
+
+
+{% endblock %}
